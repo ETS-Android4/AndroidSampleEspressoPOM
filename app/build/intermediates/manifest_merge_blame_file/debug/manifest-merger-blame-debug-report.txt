@@ -1,0 +1,210 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.eajy.materialdesigndemo"
+4    android:versionCode="46"
+5    android:versionName="5.4" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:6:5-79
+12-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="com.android.vending.BILLING" />
+13-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:7:5-67
+13-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:7:22-64
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->[com.google.android.gms:play-services-measurement-sdk-api:16.0.3] /Users/maximchislov/.gradle/caches/transforms-2/files-2.1/71c04dc48f5fcb1862d8365001960b7e/play-services-measurement-sdk-api-16.0.3/AndroidManifest.xml:25:5-68
+14-->[com.google.android.gms:play-services-measurement-sdk-api:16.0.3] /Users/maximchislov/.gradle/caches/transforms-2/files-2.1/71c04dc48f5fcb1862d8365001960b7e/play-services-measurement-sdk-api-16.0.3/AndroidManifest.xml:25:22-65
+15
+16    <application
+16-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:9:5-90:19
+17        android:allowBackup="true"
+17-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:10:9-35
+18        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+18-->[com.android.support:support-compat:28.0.0] /Users/maximchislov/.gradle/caches/transforms-2/files-2.1/950cafb7342b3be6b1e07c6190c89f13/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:11:9-43
+21        android:label="@string/app_name"
+21-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:12:9-41
+22        android:supportsRtl="true"
+22-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:13:9-35
+23        android:testOnly="true"
+24        android:theme="@style/AppTheme" >
+24-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:14:9-40
+25        <activity
+25-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:15:9-30:20
+26            android:name="com.eajy.materialdesigndemo.activity.MainActivity"
+26-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:16:13-50
+27            android:label="@string/app_name"
+27-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:17:13-45
+28            android:launchMode="singleTop"
+28-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:18:13-43
+29            android:theme="@style/AppTheme.NoActionBar"
+29-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:19:13-56
+30            android:windowSoftInputMode="stateHidden|stateUnchanged" >
+30-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:20:13-69
+31            <intent-filter>
+31-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:21:13-25:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:22:17-69
+32-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:22:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:24:17-77
+34-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:24:27-74
+35            </intent-filter>
+36
+37            <meta-data
+37-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:27:13-29:53
+38                android:name="android.app.shortcuts"
+38-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:28:17-53
+39                android:resource="@xml/shortcuts" />
+39-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:29:17-50
+40        </activity>
+41        <activity
+41-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:31:9-34:67
+42            android:name="com.eajy.materialdesigndemo.activity.LoginActivity"
+42-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:32:13-51
+43            android:label="@string/title_activity_login"
+43-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:33:13-57
+44            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity" />
+44-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:34:13-64
+45        <activity
+45-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:35:9-39:69
+46            android:name="com.eajy.materialdesigndemo.activity.RecyclerViewActivity"
+46-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:36:13-58
+47            android:label="@string/title_activity_recycler_view"
+47-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:37:13-65
+48            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity"
+48-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:38:13-64
+49            android:theme="@style/AppTheme.NoActionBar_StatusBar" />
+49-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:39:13-66
+50        <activity
+50-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:40:9-43:69
+51            android:name="com.eajy.materialdesigndemo.activity.ShareViewActivity"
+51-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:41:13-55
+52            android:label="@string/title_activity_share_view"
+52-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:42:13-62
+53            android:theme="@style/AppTheme.NoActionBar_StatusBar" />
+53-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:43:13-66
+54        <activity
+54-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:44:9-48:59
+55            android:name="com.eajy.materialdesigndemo.activity.ScrollingActivity"
+55-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:45:13-55
+56            android:label="@string/title_activity_scrolling"
+56-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:46:13-61
+57            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity"
+57-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:47:13-64
+58            android:theme="@style/AppTheme.NoActionBar" />
+58-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:48:13-56
+59        <activity
+59-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:49:9-52:54
+60            android:name="com.eajy.materialdesigndemo.activity.FullscreenActivity"
+60-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:50:13-56
+61            android:configChanges="orientation|keyboardHidden|screenSize"
+61-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:51:13-74
+62            android:theme="@style/FullscreenTheme" />
+62-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:52:13-51
+63        <activity
+63-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:53:9-55:59
+64            android:name="com.eajy.materialdesigndemo.activity.BottomNavigationActivity"
+64-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:54:13-62
+65            android:theme="@style/AppTheme.NoActionBar" />
+65-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:55:13-56
+66        <activity
+66-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:56:9-59:67
+67            android:name="com.eajy.materialdesigndemo.activity.SettingsActivity"
+67-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:57:13-54
+68            android:label="@string/title_activity_settings"
+68-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:58:13-60
+69            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity" />
+69-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:59:13-64
+70        <activity
+70-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:60:9-64:69
+71            android:name="com.eajy.materialdesigndemo.activity.AboutActivity"
+71-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:61:13-51
+72            android:label="@string/title_activity_about"
+72-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:62:13-57
+73            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity"
+73-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:63:13-64
+74            android:theme="@style/AppTheme.NoActionBar_StatusBar" />
+74-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:64:13-66
+75        <activity
+75-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:65:9-69:69
+76            android:name="com.eajy.materialdesigndemo.activity.DonateActivity"
+76-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:66:13-52
+77            android:label="@string/activity_donate"
+77-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:67:13-52
+78            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity"
+78-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:68:13-64
+79            android:theme="@style/AppTheme.NoActionBar_StatusBar" />
+79-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:69:13-66
+80        <activity
+80-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:70:9-74:69
+81            android:name="com.eajy.materialdesigndemo.activity.MyAppsActivity"
+81-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:71:13-52
+82            android:label="@string/activity_my_apps"
+82-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:72:13-53
+83            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity"
+83-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:73:13-64
+84            android:theme="@style/AppTheme.NoActionBar_StatusBar" />
+84-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:74:13-66
+85
+86        <meta-data
+86-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:76:9-78:69
+87            android:name="com.google.android.gms.version"
+87-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:77:13-58
+88            android:value="@integer/google_play_services_version" />
+88-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:78:13-66
+89        <meta-data
+89-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:79:9-81:52
+90            android:name="com.google.android.gms.ads.APPLICATION_ID"
+90-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:80:13-69
+91            android:value="@string/admob_app_id" />
+91-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:81:13-49
+92
+93        <activity
+93-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:83:9-86:64
+94            android:name="com.google.android.gms.ads.AdActivity"
+94-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:84:13-65
+95            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+95-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:85:13-122
+96            android:exported="false"
+96-->[com.google.android.gms:play-services-ads-lite:17.1.1] /Users/maximchislov/.gradle/caches/transforms-2/files-2.1/7ab4fcd8051c93982fb1c1b7b1557e02/play-services-ads-lite-17.1.1/AndroidManifest.xml:32:13-37
+97            android:theme="@android:style/Theme.Translucent" />
+97-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:86:13-61
+98        <activity
+98-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:87:9-89:69
+99            android:name="com.eajy.materialdesigndemo.activity.BottomAppBarActivity"
+99-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:88:13-58
+100            android:theme="@style/AppTheme.NoActionBar_StatusBar" />
+100-->/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/AndroidManifest.xml:89:13-66
+101
+102        <provider
+102-->[com.google.android.gms:play-services-ads-lite:17.1.1] /Users/maximchislov/.gradle/caches/transforms-2/files-2.1/7ab4fcd8051c93982fb1c1b7b1557e02/play-services-ads-lite-17.1.1/AndroidManifest.xml:35:9-39:39
+103            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+103-->[com.google.android.gms:play-services-ads-lite:17.1.1] /Users/maximchislov/.gradle/caches/transforms-2/files-2.1/7ab4fcd8051c93982fb1c1b7b1557e02/play-services-ads-lite-17.1.1/AndroidManifest.xml:36:13-76
+104            android:authorities="com.eajy.materialdesigndemo.mobileadsinitprovider"
+104-->[com.google.android.gms:play-services-ads-lite:17.1.1] /Users/maximchislov/.gradle/caches/transforms-2/files-2.1/7ab4fcd8051c93982fb1c1b7b1557e02/play-services-ads-lite-17.1.1/AndroidManifest.xml:37:13-73
+105            android:exported="false"
+105-->[com.google.android.gms:play-services-ads-lite:17.1.1] /Users/maximchislov/.gradle/caches/transforms-2/files-2.1/7ab4fcd8051c93982fb1c1b7b1557e02/play-services-ads-lite-17.1.1/AndroidManifest.xml:38:13-37
+106            android:initOrder="100" />
+106-->[com.google.android.gms:play-services-ads-lite:17.1.1] /Users/maximchislov/.gradle/caches/transforms-2/files-2.1/7ab4fcd8051c93982fb1c1b7b1557e02/play-services-ads-lite-17.1.1/AndroidManifest.xml:39:13-36
+107
+108        <meta-data
+108-->[com.android.support:customtabs:26.1.0] /Users/maximchislov/.gradle/caches/transforms-2/files-2.1/dc7e13cfe85dba94c0d02dd17b44b711/customtabs-26.1.0/AndroidManifest.xml:23:9-25:38
+109            android:name="android.support.VERSION"
+109-->[com.android.support:customtabs:26.1.0] /Users/maximchislov/.gradle/caches/transforms-2/files-2.1/dc7e13cfe85dba94c0d02dd17b44b711/customtabs-26.1.0/AndroidManifest.xml:24:13-51
+110            android:value="26.1.0" />
+110-->[com.android.support:customtabs:26.1.0] /Users/maximchislov/.gradle/caches/transforms-2/files-2.1/dc7e13cfe85dba94c0d02dd17b44b711/customtabs-26.1.0/AndroidManifest.xml:25:13-35
+111    </application>
+112
+113</manifest>

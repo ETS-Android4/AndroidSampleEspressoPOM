@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.eajy.materialdesigndemo"
+    android:versionCode="46"
+    android:versionName="5.4" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="29" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|stateUnchanged" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.shortcuts"
+                android:resource="@xml/shortcuts" />
+        </activity>
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.RecyclerViewActivity"
+            android:label="@string/title_activity_recycler_view"
+            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar_StatusBar" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.ShareViewActivity"
+            android:label="@string/title_activity_share_view"
+            android:theme="@style/AppTheme.NoActionBar_StatusBar" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.ScrollingActivity"
+            android:label="@string/title_activity_scrolling"
+            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.FullscreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.BottomNavigationActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.AboutActivity"
+            android:label="@string/title_activity_about"
+            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar_StatusBar" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.DonateActivity"
+            android:label="@string/activity_donate"
+            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar_StatusBar" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.MyAppsActivity"
+            android:label="@string/activity_my_apps"
+            android:parentActivityName="com.eajy.materialdesigndemo.activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar_StatusBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/admob_app_id" />
+
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name="com.eajy.materialdesigndemo.activity.BottomAppBarActivity"
+            android:theme="@style/AppTheme.NoActionBar_StatusBar" />
+
+        <provider
+            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+            android:authorities="com.eajy.materialdesigndemo.mobileadsinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+    </application>
+
+</manifest>

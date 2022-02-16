@@ -1,0 +1,7 @@
+com/eajy/materialdesigndemo/test/BuildConfig.java
+ com.eajy.materialdesigndemo.test.BuildConfig
+com/eajy/materialdesigndemo/test/Instrumentation.java
+ com.eajy.materialdesigndemo.test.Instrumentation
+com/eajy/materialdesigndemo/test/CardsSteps.java
+ com.eajy.materialdesigndemo.test.CardsSteps
+ com.eajy.materialdesigndemo.test.CardsSteps$ErrorTextMatcher

@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/res/values-w820dp/dimens.xml",
+                    "from": {
+                        "startLines": "10,11,5,27,26,25,28,8,7,13,14,16,18,17,23,22,20",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "437,496,292,1173,1111,1050,1227,394,351,568,623,688,811,748,994,940,884",
+                        "endColumns": "58,70,57,53,61,60,55,41,42,54,63,59,71,62,54,53,54",
+                        "endOffsets": "491,562,345,1222,1168,1106,1278,431,389,618,682,743,878,806,1044,989,934"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,114,185,243,297,359,420,476,518,561,616,680,740,812,875,930,984",
+                        "endColumns": "58,70,57,53,61,60,55,41,42,54,63,59,71,62,54,53,54",
+                        "endOffsets": "109,180,238,292,354,415,471,513,556,611,675,735,807,870,925,979,1034"
+                    }
+                }
+            ]
+        }
+    ]
+}

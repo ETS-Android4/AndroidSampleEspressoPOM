@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w560dp-land-v13/values-w560dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/maximchislov/Documents/crs/AndroidSampleProjEspresso/app/src/main/res/values-w560dp-land/dimens.xml",
+                    "from": {
+                        "startLines": "5,3,18,17,16,7,8,10,11,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "115,56,659,597,537,174,228,293,352,415,469",
+                        "endColumns": "57,57,53,61,59,53,63,58,61,53,66",
+                        "endOffsets": "168,109,708,654,592,223,287,347,409,464,531"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,113,171,225,287,347,401,465,524,586,640",
+                        "endColumns": "57,57,53,61,59,53,63,58,61,53,66",
+                        "endOffsets": "108,166,220,282,342,396,460,519,581,635,702"
+                    }
+                }
+            ]
+        }
+    ]
+}
